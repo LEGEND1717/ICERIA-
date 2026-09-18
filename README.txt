@@ -1,25 +1,9 @@
-ICERIA WEBSITE — FINAL WORKING PACKAGE
+ICERIA 2027 — GitHub Pages upload package
 
-Brand: ICERIA — International Conference and Expo on Research and Innovations in Agriculture
-Positioning: Innovations for Sustainable Food Systems
-Supporting identity: RESEARCH • INNOVATION • IMPACT
-Current edition: ICERIA 2027
-Date: 16 March 2027
-Venue: Nigerian Institute of International Affairs (NIIA), Kofo Abayomi, Victoria Island, Lagos
+Upload all HTML files, style.css, and the assets folder to the repository root.
 
-Ownership architecture:
-Legend & Genius = Owner / Convenor / Powering Organisation
-ICERIA = Evergreen platform
-ICERIA 2027 = Current edition
+The site is designed as an independent ICERIA platform, with ICERIA 2027 as the current edition.
 
-This package includes the approved evergreen horizontal and circular ICERIA identity, responsive pages, 2019/2020 archival photographs supplied for the project, the original 2019 poster, and the 2027 stage concept.
+Footer attribution: ICERIA is owned, convened and promoted by Legend & Genius. Website designed, developed and managed by Legend & Genius.
 
-Do not delete legacy files from the existing Legend & Genius repository. This ICERIA package is a separate website.
-
-Recommended deployment:
-1. Create a separate GitHub repository for ICERIA.
-2. Upload all files and the assets folder.
-3. Enable GitHub Pages from the repository's Settings > Pages.
-4. Later connect a professional ICERIA domain.
-
-Historical media links are external references. Future 2027 speakers, partners, fees and programme details should be added only when confirmed.
+Historical partner relationships are distinguished from confirmed 2027 partners. Official institutional logos should only be added/used with appropriate permission and in accordance with each organisation’s brand guidelines.
