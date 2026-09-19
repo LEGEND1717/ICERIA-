@@ -2,3 +2,85 @@
 @media(max-width:1000px){.brandmessage{display:none}.hero-content,.editiongrid,.stagegrid,.split,.contactlayout{grid-template-columns:1fr}.hero-content{padding-top:65px;padding-bottom:65px}.event-card{max-width:650px}.connect{grid-template-columns:repeat(3,1fr)}.fourcards{grid-template-columns:1fr 1fr}.partner-marks{grid-template-columns:repeat(3,1fr)}.sixgrid,.partner-grid{grid-template-columns:1fr 1fr}.logo-wall{grid-template-columns:repeat(2,1fr)}.archive-grid{grid-template-columns:1fr 1fr}.footer-main{grid-template-columns:1.5fr 1fr 1fr}.navinner .navcta{margin-left:0}}
 @media(max-width:650px){.wrap{padding-left:18px;padding-right:18px}.topinner{display:none}.brandinner{min-height:105px}.brandlogo{width:100%;max-width:420px}.quickinner{overflow:auto;white-space:nowrap}.quickinner span+span{padding-left:16px}.navinner a{font-size:.7rem;padding:12px 10px}.navinner .navcta{display:none}.homehero{min-height:auto}.hero-content{min-height:auto;padding-top:52px;padding-bottom:52px}.hero h1{font-size:2.45rem}.event-card{padding:20px}.platform,.partner-strip,.news-preview,.stage,.theme-light{padding:52px 0}.threecards,.fourcards,.sixgrid,.partner-grid,.archive-grid,.photogrid{grid-template-columns:1fr}.connect{grid-template-columns:1fr 1fr}.pathway{gap:5px}.pathway span{font-size:.64rem;padding:9px 10px}.journey{grid-template-columns:1fr}.partner-marks{grid-template-columns:1fr 1fr}.logo-wall{grid-template-columns:1fr 1fr}.contactfacts{grid-template-columns:1fr}.footer-main{grid-template-columns:1fr 1fr}.footer-bottom{flex-direction:column}.footer-brand{grid-column:1/-1}.footer-brand img{width:250px}.ownership{font-size:.82rem}.stageimage img{max-height:520px}.architecture{grid-template-columns:1fr}.timeline>div{grid-template-columns:1fr;gap:8px}}
 @media(max-width:420px){.footer-main{grid-template-columns:1fr}.partner-marks,.logo-wall{grid-template-columns:1fr}.connect{grid-template-columns:1fr 1fr}.hero h1{font-size:2.15rem}}
+
+/* FINAL GITHUB PACKAGE — ICERIA 2027 refinements */
+:root{--navy:#06324a;--deep:#063c2e;--green:#087a43;--gold:#f2c94c;--ink:#17383e;--muted:#607177;--cream:#f7f7f0}
+body{overflow-x:hidden}
+main section{padding-top:72px;padding-bottom:72px}
+.hero.homehero{min-height:620px;background-image:url("assets/iceria-hero-banner.jpg");background-position:center;background-size:cover}
+.hero.homehero:after{pointer-events:none}
+.hero-content{min-height:620px}
+.hero-copy h1{max-width:850px}
+.hero-kicker{display:inline-flex;align-items:center;gap:10px;color:#fff;background:#063c2ed9;border-left:4px solid var(--gold);padding:8px 13px;font-size:.72rem;font-weight:900;letter-spacing:.13em}
+.hero-title{font-size:clamp(3.4rem,7vw,6.5rem)!important;margin:14px 0 4px!important;letter-spacing:-.04em}
+.hero-title em{font-style:normal;color:var(--gold)}
+.hero-tagline{font-size:clamp(1.15rem,2vw,1.65rem);font-weight:850;color:#fff;margin:0 0 14px}
+.hero-location{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.hero-location span{background:#ffffff18;border:1px solid #ffffff55;border-radius:999px;padding:8px 13px;color:#fff;font-size:.78rem;font-weight:800;backdrop-filter:blur(5px)}
+.header-cta{display:inline-block;background:var(--gold);color:#063c2e;font-weight:900;padding:12px 17px;border-radius:7px;white-space:nowrap}
+.mobile-nav{display:none}
+.brandinner{position:relative}
+.brandmessage{flex:0 0 auto}
+.quickinner{min-height:38px}
+.navinner{scrollbar-width:thin}
+.navinner a{font-size:.73rem}
+.navinner .navcta{margin-left:auto}
+.section-lead{max-width:880px;margin:0 auto 32px;text-align:center}
+.section-lead h2{margin-bottom:12px}
+.card-link{display:inline-block;margin-top:8px}
+.statband{background:linear-gradient(100deg,#06324a,#0a4938);color:#fff;padding:24px 0}
+.statband-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.statband-grid>div{text-align:center;padding:6px 18px;border-right:1px solid #ffffff30}
+.statband-grid>div:last-child{border-right:0}
+.statband-grid b{display:block;color:var(--gold);font-size:1.2rem}
+.statband-grid span{font-size:.78rem;color:#e6f2ed}
+.newsgrid article{transition:transform .2s ease,box-shadow .2s ease}
+.newsgrid article:hover,.threecards article:hover,.journey article:hover{transform:translateY(-3px);box-shadow:0 16px 35px #123b5d18}
+.btn{transition:transform .15s ease,filter .15s ease}
+.btn:hover{transform:translateY(-1px);filter:brightness(.98)}
+@media(max-width:1000px){
+ .header-cta{display:none}.brandmessage{display:none}.statband-grid{grid-template-columns:repeat(2,1fr);gap:10px}
+ .statband-grid>div{border-right:0}
+}
+@media(max-width:700px){
+ main section{padding-top:52px;padding-bottom:52px}
+ .desktop-nav{display:none}.mobile-nav{display:block;background:#063c2e;color:#fff;position:sticky;top:0;z-index:60;box-shadow:0 4px 18px #002b1a22}
+ .mobile-nav summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;padding:13px 18px;font-weight:900;letter-spacing:.08em}
+ .mobile-nav summary::-webkit-details-marker{display:none}
+ .mobile-nav-list{padding:4px 12px 14px;background:#063c2e;display:grid;grid-template-columns:1fr 1fr;gap:4px}
+ .mobile-nav-list a{color:#fff;padding:11px 10px;border-radius:5px;font-size:.78rem}
+ .mobile-nav-list a.active{background:var(--gold);color:#063c2e}
+ .mobile-nav-list .mobile-cta{grid-column:1/-1;background:var(--gold);color:#063c2e;text-align:center;font-weight:900;margin-top:5px}
+ .hero.homehero{min-height:auto}
+ .hero-content{min-height:auto;padding-top:56px;padding-bottom:56px}
+ .hero-title{font-size:3rem!important}
+ .hero-location{display:grid;grid-template-columns:1fr}
+ .statband-grid{grid-template-columns:1fr 1fr}
+ .statband-grid b{font-size:1rem}
+ .statband-grid span{font-size:.68rem}
+}
+@media(max-width:430px){
+ .hero-title{font-size:2.5rem!important}
+ .mobile-nav-list{grid-template-columns:1fr}
+ .mobile-nav-list .mobile-cta{grid-column:auto}
+ .statband-grid{grid-template-columns:1fr}
+}
+
+
+/* ICERIA 2027 PREMIUM AGRICULTURAL IMAGE PASS */
+.homehero{position:relative;isolation:isolate;background-color:#063c2e}
+.homehero:before{content:"";position:absolute;inset:0;z-index:-2;background-image:url("assets/hero-pure.jpg");background-size:cover;background-position:center;transform:scale(1.01)}
+.homehero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(3,35,29,.94) 0%,rgba(3,35,29,.78) 35%,rgba(3,35,29,.20) 68%,rgba(3,35,29,.52) 100%),linear-gradient(0deg,rgba(3,35,29,.45),transparent 42%);pointer-events:none}
+.homehero .hero-content{position:relative;z-index:1}
+.homehero .hero-copy{max-width:760px}
+.homehero .hero-copy .hero-text{max-width:680px}
+.homehero .event-card{background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border:1px solid rgba(242,201,76,.65);box-shadow:0 18px 55px rgba(0,0,0,.22)}
+.news-preview{background:linear-gradient(180deg,#f7f7f0 0%,#fff 100%)}
+.newsgrid article{overflow:hidden;background:#fff;border:1px solid #dbe4e2;border-radius:16px;box-shadow:0 8px 24px rgba(18,59,93,.08)}
+.newsgrid article img{height:205px;object-fit:cover;display:block;width:100%;transition:transform .35s ease}
+.newsgrid article:hover img{transform:scale(1.035)}
+.newsgrid article>span{display:inline-block;margin:16px 16px 5px;padding:5px 9px;border-radius:999px;background:#e7f3ec;color:#087a43;font-weight:900;font-size:.68rem;letter-spacing:.05em}
+.newsgrid article h3{padding:0 16px;margin:4px 0 8px;color:#123b5d}
+.newsgrid article small{display:block;padding:0 16px 18px;color:#65767b}
+@media(max-width:1000px){.homehero:after{background:linear-gradient(90deg,rgba(3,35,29,.93),rgba(3,35,29,.60)),linear-gradient(0deg,rgba(3,35,29,.35),transparent 45%)}}
+@media(max-width:700px){.homehero:before{background-position:58% center}.homehero:after{background:linear-gradient(90deg,rgba(3,35,29,.94),rgba(3,35,29,.68))}.newsgrid article img{height:190px}}
