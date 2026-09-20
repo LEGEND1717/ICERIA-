@@ -1,14 +1,24 @@
-ICERIA WEBSITE — GITHUB MOBILE-READY PACKAGE
+ICERIA — EVERGREEN INSTITUTIONAL WEBSITE / 2027 CURRENT EDITION
 
-This package is intentionally FLAT because it is designed for upload through GitHub's mobile/web Upload files screen.
+This package is a redesigned, mobile-responsive GitHub Pages version of the ICERIA website.
 
-Upload ALL files in this folder to the repository root. Do not create an assets folder.
+DESIGN DIRECTION
+- Clean white institutional layout inspired by the approved visual direction.
+- Deep navy, agricultural green and restrained gold accents.
+- Authentic ICERIA conference photography is used instead of a heavy full-page colour overlay.
+- ICERIA remains the enduring platform; ICERIA 2027 is presented as the current edition.
+- The former stage-concept graphic with visible production dimensions is NOT used on the homepage.
+- Historical conference photography is varied to reduce repetition.
 
-The homepage is intentionally evergreen: ICERIA is the permanent platform and ICERIA 2027 is presented as the current edition.
+KEY CORRECTIONS
+- Homepage uses the ICERIA conference-session photograph as the main visual.
+- Contact address: No. 15 ROTIMI ABIRU STREET, IBEJU-LEKKI, LAGOS, NIGERIA.
+- Agriculture journalists reference corrected to Guild of Nigerian Agriculture Journalists (GNAJ).
+- Netherlands representatives: Mr. Bryan Udoh and Bram Wits.
+- IITA participants are named in the institutional participation record.
+- Dr. Kanayo Nwanze is identified as former President of IFAD.
+- Full ICERIA 2027 venue address is retained: Nigerian Institute of International Affairs (NIIA), 13/15 Kofo Abayomi Street, Victoria Island, Lagos, Nigeria.
+- Previous editions and historical news remain part of the site.
 
-Expected repository: 14 HTML pages + style.css + robots.txt + README.txt + ICERIA image/logo assets.
-
-GitHub Pages:
-Settings > Pages > Deploy from a branch > main > /(root) > Save.
-
-If GitHub Pages is already enabled, the site should update after the latest commit.
+UPLOAD
+Keep all files at the repository ROOT. Upload/replace the complete package rather than individual HTML files so that the CSS and all pages remain synchronized.
