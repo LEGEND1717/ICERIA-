@@ -5,7 +5,6 @@ Purpose: official websites and brand/identity resources for sourcing organisatio
 CURRENTLY DISPLAYED ON THE ICERIA HOMEPAGE ECOSYSTEM STRIP
 IITA — https://iita.org/
 CGIAR — https://www.cgiar.org/
-IFAD — https://www.ifad.org/
 ILRI — https://www.ilri.org/
 AfricaRice — https://www.africarice.org/
 WorldFish — https://worldfishcenter.org/
@@ -22,6 +21,6 @@ AFEX — https://www.afex.africa/
 GNAJ — https://gnaj.org/
 
 SOURCE / USAGE NOTE
-The homepage ecosystem strip is intentionally limited to the eight logo assets above and labels them as historical/reference ecosystem participants. Their appearance does not by itself indicate a confirmed ICERIA 2027 partnership.
+The homepage ecosystem strip is intentionally limited to the seven logo assets above and labels them as historical/reference ecosystem participants. Their appearance does not by itself indicate a confirmed ICERIA 2027 partnership.
 
 Some organisations require permission or adherence to brand guidelines before third-party logo use. Use official downloadable/approved logo assets where the organisation provides them.

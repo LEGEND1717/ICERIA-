@@ -1,0 +1,12 @@
+ICERIA WEBSITE — SEO DEPLOYMENT CHECKLIST
+
+1. Confirm the production website URL/domain.
+2. Add absolute canonical URLs to all indexable HTML pages.
+3. Generate sitemap.xml using the confirmed production URL.
+4. Add the sitemap URL to robots.txt.
+5. Verify the site in Google Search Console.
+6. Submit sitemap.xml and request indexing for the homepage, ICERIA 2027 page, Documentary Report and Stories & Insights page.
+7. Add the official Facebook Page URL to Organization JSON-LD as sameAs once the final Page URL is confirmed.
+8. Add LinkedIn/Instagram/YouTube URLs as sameAs only when they are official ICERIA accounts.
+9. Validate Organization and Event structured data after deployment.
+10. Do not claim historical organisations as current 2027 partners unless confirmed.

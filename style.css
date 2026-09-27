@@ -301,3 +301,15 @@ body{font-size:16px;background:#fff;color:var(--ink)}
 .news-card-link .card-link{display:inline-block;margin-top:13px;color:var(--green);font-weight:900;font-size:.82rem}
 @media(max-width:950px){.home-partner-logos{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:650px){.home-partner-logos{grid-template-columns:repeat(2,1fr)}.home-partner-logos a{min-height:84px}.home-partner-logos img{height:52px}}
+
+/* ============================================================
+   OFFICIAL ICERIA CUBE LOGO + DOCUMENTARY REPORT
+   ============================================================ */
+.brandlogo img{width:92px;height:92px;object-fit:contain;display:block}
+.footer-brand img{width:150px;height:150px;object-fit:contain;filter:none!important;opacity:1}
+.edition-emblem img{width:min(250px,62vw);height:auto;object-fit:contain}
+.documentary-lead{display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center}
+.documentary-lead img{width:100%;display:block;border-radius:12px;box-shadow:var(--shadow)}
+@media(max-width:950px){.documentary-lead{grid-template-columns:1fr}.brandlogo img{width:82px;height:82px}}
+@media(max-width:650px){.brandinner{min-height:76px}.brandlogo img{width:68px;height:68px}.footer-brand img{width:125px;height:125px}.documentary-lead{grid-template-columns:1fr}}
+.story-list{max-width:940px}.story{padding:42px 0;border-bottom:1px solid var(--line)}.story:first-child{padding-top:0}.story h2{font-size:clamp(1.8rem,3.5vw,2.7rem);line-height:1.15;color:var(--navy);margin:8px 0 14px}.story p{max-width:850px;color:var(--muted)}.text-link{display:inline-block;margin-top:8px;color:var(--green);font-weight:900}.insight-preview-grid{grid-template-columns:repeat(4,1fr)}.hero-photo img{object-position:center}.hero-copy .current-edition-card{margin-top:8px}.current-edition-card{padding:18px;border:1px solid var(--line);background:#f8faf7;border-left:4px solid var(--gold);border-radius:6px;color:var(--navy)}.current-edition-card strong{color:var(--green);font-size:1.1rem}@media(max-width:950px){.insight-preview-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.insight-preview-grid{grid-template-columns:1fr}.story{padding:32px 0}}

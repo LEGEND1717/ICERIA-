@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+# Add the live sitemap URL here after the production domain is confirmed.
