@@ -1,0 +1,9 @@
+ICERIA WEBSITE — FRONT PAGE JOURNEY IMAGE FIX
+1 October 2026
+
+Correction:
+- Removed the previous front-page 2019 journey image (iceria-2019-welcome.png) from the homepage journey card.
+- Replaced it with the client-supplied Picture 2: iceria-2019-journey-media-interview.jpg.
+- The supplied photograph was used without AI generation or substitution.
+- The existing 2019 archive image asset remains untouched for archives.html.
+- No other homepage content or images were intentionally changed in this correction.

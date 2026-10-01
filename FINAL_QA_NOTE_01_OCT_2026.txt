@@ -1,0 +1,28 @@
+ICERIA WEBSITE — FINAL CONTROLLED QA / CORRECTION BASELINE
+Date: 1 October 2026
+
+This package is based on the existing ICERIA website source. It is a controlled correction pass, not a rebuild.
+
+Verified and corrected:
+1. Uniform approved horizontal ICERIA logo/header treatment is used across all 16 HTML pages.
+2. Sea-green/jade page treatment is removed; neutral/white backgrounds are retained.
+3. Footer is standardised across all 16 pages, compacted for mobile, and the duplicated “Innovations for Sustainable Food Systems” line has been removed from the footer because the approved logo already carries that tagline.
+4. Footer retains Research. Innovation. Partnerships. Impact., approved contact details, Explore ICERIA links, Legend & Genius ownership line, social icons and dynamic copyright year.
+5. ICERIA 2027 page uses the approved 2027 stage backdrop asset.
+6. Homepage ICERIA 2027 current-edition card uses the supplied backdrop image and places the full 2027 theme proportionally beneath “ICERIA 2027”.
+7. Homepage “ICERIA IN ACTION” uses the approved supplied conference-session photograph.
+8. Homepage “THE ICERIA JOURNEY — 2019” card uses the supplied media-interview photograph in place of the previously rejected image.
+9. Gallery retains the other existing photographs while using the locked replacement and addition images.
+10. Partners page contains all 19 locked historical/reference ecosystem organisations with supplied/reference logo assets; no new AI-generated logos were created in this correction pass.
+11. The historical-partner disclaimer remains on the Partners page.
+12. Dr. Kanayo Nwanze photograph has the locked corrected caption on both affected pages (Partners and Speakers).
+13. Existing page content, structure and approved images are otherwise preserved.
+
+QA counts:
+- 16 HTML pages
+- 16 pages with common footer
+- 16 pages with dynamic copyright-year script
+- 19 partner logo/reference cards
+- 2 affected Nwanze caption pages
+
+This package supersedes the previous CURRENT-EDITION-CARD-FIX package.

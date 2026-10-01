@@ -1,0 +1,10 @@
+PICTURE 2 CORRECTION — 01 OCTOBER 2026
+
+The user-supplied attached photograph (1536x973) is the approved Picture 2.
+It is used exactly as supplied for the homepage ICERIA IN ACTION image.
+
+The old Picture 1 file/reference iceria-2019-conference-room-1.jpg has been removed.
+Its old gallery card has been removed from gallery.html.
+The existing gallery replacement image is the same Picture 2 visual.
+Picture 3 remains in the gallery.
+No AI recreation or image substitution was used.
