@@ -1,0 +1,39 @@
+ICERIA WEBSITE — CONTROLLED CORRECTION PASS
+Date: 1 October 2026
+
+This package preserves the existing ICERIA website structure and content. It is not a rebuild.
+
+SITE-WIDE
+- Uniform approved horizontal ICERIA header/logo treatment applied to all pages.
+- Unwanted sea-green/jade page and quick-bar treatment removed; light neutral/white page backgrounds retained.
+- Footer shortened and standardised across all pages using the approved ICERIA footer content.
+- Copyright year is dynamic and generated from the current year.
+- Existing page structures, historical content and approved images were retained except for specifically locked corrections.
+
+ICERIA 2027
+- Replaced the previous stage image with the approved final ICERIA 2027 backdrop: top arcs removed and lower green/gold arcs retained.
+
+ABOUT
+- Existing About page structure retained.
+- The previously approved ICERIA purpose/impact graphic is used in place of the earlier photograph.
+
+PARTNERS & ECOSYSTEM
+- Partners page now contains the locked 19-organisation historical ecosystem list.
+- The page explicitly states that historical inclusion does not itself indicate a confirmed ICERIA 2027 partnership.
+- No new logo artwork was manufactured. Partner logo/reference assets used in the cards come from the supplied/approved reference material already available in the working files.
+
+GALLERY
+- Existing gallery photographs retained.
+- The affected first/bad photograph was replaced with the approved conference-session photograph.
+- The approved media-engagement photograph was added.
+- Other existing gallery photographs were retained.
+
+NWANZE PHOTOGRAPH
+The same corrected caption is used on both Partners and Speakers pages:
+“Dr. Kanayo Nwanze, former President of the International Fund for Agricultural Development (IFAD), with Jim REX-LAWSON MOSES, Founder and Promoter of ICERIA, at the inaugural edition of ICERIA in 2019.”
+
+QA CHECKS
+- 16 HTML pages checked for the common header and footer treatment.
+- 19 partner cards confirmed in partners.html.
+- 2027 backdrop reference updated.
+- No old fixed “© 2026 ICERIA” footer text remains.

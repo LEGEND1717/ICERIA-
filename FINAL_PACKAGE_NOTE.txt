@@ -1,0 +1,16 @@
+ICERIA 2027 WEBSITE — FINAL CONTROLLED CORRECTION PACKAGE
+Date: 1 October 2026
+
+This package is based on the existing ICERIA website source and is a controlled correction pass, not a rebuild.
+
+Implemented:
+- Uniform approved horizontal ICERIA header/logo treatment across all pages.
+- Sea-green/jade page treatment removed; neutral/white backgrounds retained.
+- Footer compacted and standardised site-wide; copyright year is dynamic.
+- Approved ICERIA 2027 backdrop installed on the 2027 page.
+- About page approved purpose/impact graphic retained.
+- Partners & Ecosystem expanded to the locked 19-organisation historical list using supplied/approved logo reference assets; no fabricated logos were created.
+- Gallery locked correction applied: approved replacement conference-session image and approved additional media-engagement image added while retaining the other gallery photographs.
+- Dr. Kanayo Nwanze photograph caption corrected consistently on both affected pages.
+
+No general page rebuild or wholesale content replacement was performed.

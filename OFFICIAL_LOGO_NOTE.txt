@@ -1,4 +1,9 @@
-OFFICIAL ICERIA LOGO
+OFFICIAL ICERIA LOGO / HEADER USE
 
-The file iceria-official-logo-cube.png is the supplied official ICERIA logo asset approved for the website identity.
-Use the cube/rounded-square form as the primary institutional logo treatment. Do not redraw, recolour, distort or substitute it with an unapproved variant.
+The supplied ICERIA logo assets remain the approved institutional identity.
+
+Header: use iceria-horizontal-approved.png as the uniform top-of-page header treatment across the website.
+Footer: use the same approved horizontal identity in the compact site-wide footer.
+Institutional cube asset: iceria-official-logo-cube.png remains retained in the package for favicon/legacy institutional uses.
+
+Do not redraw, recolour, distort or substitute the approved ICERIA identity with an unapproved variant.

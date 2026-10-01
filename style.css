@@ -11,8 +11,8 @@
   --navy:#123B5D;
   --green:#16833A;
   --deep:#0D5F45;
-  --jade:#DCEFE6;
-  --jade-strong:#BFE2D1;
+  --jade:#FFFFFF;
+  --jade-strong:#DFE7E2;
   --gold:#D4AF37;
   --leaf:#78C043;
   --blue:#1E73BE;
@@ -32,7 +32,7 @@ body{font-size:16px;background:#fff;color:var(--ink)}
 .brandmessage{color:var(--green);font-size:1.2rem}
 .brandmessage b{color:var(--gold);font-size:.78rem}
 .header-cta{background:var(--green);border-radius:999px;padding:11px 18px}
-.quickbar{background:var(--jade);color:var(--navy);border-bottom:1px solid var(--jade-strong)}
+.quickbar{background:var(--white);color:var(--navy);border-bottom:1px solid var(--line)}
 .quickinner{min-height:48px;white-space:normal;flex-wrap:wrap;gap:0}
 .quickinner span{padding:6px 18px;border-right:1px solid rgba(18,59,93,.14)}
 .quickinner span:first-child{padding-left:0;color:var(--green)}
@@ -55,7 +55,7 @@ body{font-size:16px;background:#fff;color:var(--ink)}
 .hero-copy p{max-width:610px}
 .home-hero .hero-copy{order:1}
 .home-hero .hero-photo{order:0}
-.current-edition-card{background:linear-gradient(135deg,#eff8f3,#dcefe6);border:1px solid var(--jade-strong);border-radius:14px;padding:18px 20px;margin:18px 0 4px}
+.current-edition-card{background:linear-gradient(135deg,#eff8f3,#dcefe6);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:18px 0 4px}
 .current-edition-card strong{color:var(--green)}
 .session-feature{display:grid;grid-template-columns:1.05fr .95fr;gap:30px;align-items:center}
 .session-feature img{width:100%;height:340px;object-fit:cover;border-radius:14px;box-shadow:var(--shadow)}
@@ -83,7 +83,7 @@ body{font-size:16px;background:#fff;color:var(--ink)}
 .gallery-grid{grid-template-columns:repeat(3,1fr);gap:20px}
 .gallery-card{border-radius:12px;box-shadow:0 5px 18px rgba(18,59,93,.05)}
 .gallery-card img{height:250px}
-.footer{background:var(--jade);color:var(--navy);border-top:1px solid var(--jade-strong)}
+.footer{background:var(--white);color:var(--navy);border-top:1px solid var(--line)}
 .footer-main{padding:42px 0;grid-template-columns:1.35fr 1fr 1fr}
 .footer h3{color:var(--navy)}
 .footer a{color:var(--navy)}
@@ -150,7 +150,7 @@ body{font-size:16px;background:#fff;color:var(--ink)}
   .brandmessage,.header-cta{display:none}
 
   /* Compact two-line current-edition information. */
-  .quickbar{background:var(--jade)}
+  .quickbar{background:var(--white)}
   .quickinner{
     display:grid;
     grid-template-columns:auto 1fr;
@@ -313,3 +313,38 @@ body{font-size:16px;background:#fff;color:var(--ink)}
 @media(max-width:950px){.documentary-lead{grid-template-columns:1fr}.brandlogo img{width:82px;height:82px}}
 @media(max-width:650px){.brandinner{min-height:76px}.brandlogo img{width:68px;height:68px}.footer-brand img{width:125px;height:125px}.documentary-lead{grid-template-columns:1fr}}
 .story-list{max-width:940px}.story{padding:42px 0;border-bottom:1px solid var(--line)}.story:first-child{padding-top:0}.story h2{font-size:clamp(1.8rem,3.5vw,2.7rem);line-height:1.15;color:var(--navy);margin:8px 0 14px}.story p{max-width:850px;color:var(--muted)}.text-link{display:inline-block;margin-top:8px;color:var(--green);font-weight:900}.insight-preview-grid{grid-template-columns:repeat(4,1fr)}.hero-photo img{object-position:center}.hero-copy .current-edition-card{margin-top:8px}.current-edition-card{padding:18px;border:1px solid var(--line);background:#f8faf7;border-left:4px solid var(--gold);border-radius:6px;color:var(--navy)}.current-edition-card strong{color:var(--green);font-size:1.1rem}@media(max-width:950px){.insight-preview-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.insight-preview-grid{grid-template-columns:1fr}.story{padding:32px 0}}
+
+
+/* ============================================================
+   FINAL ICERIA SITE-WIDE CORRECTION PASS — 01 OCT 2026
+   Preserve existing page structure; correct identity, background, footer and mobile presentation.
+   ============================================================ */
+:root{--jade:#fff;--jade-strong:#dfe7e4}
+body{background:#fff}
+.brandlogo img{width:min(430px,68vw);height:auto;object-fit:contain;display:block;filter:none!important}
+.quickbar{background:var(--navy);color:#fff;border-bottom:1px solid var(--navy)}
+.quickinner span:first-child{color:var(--gold)}
+.page-hero{background:#fff}
+.current-edition-card{background:#fff;border-color:var(--line)}
+.notice{background:#f8faf7}
+.footer{background:#fff;color:var(--navy);border-top:1px solid var(--line);margin-top:0}
+.footer-main{display:grid;grid-template-columns:1.35fr 1fr 1fr;gap:30px;padding:30px 0 24px}
+.footer-brand img{width:min(360px,100%);height:auto;object-fit:contain;display:block;filter:none!important;opacity:1}
+.footer h3{color:var(--green);margin:0 0 10px;font-size:1rem}
+.footer a{color:var(--navy)}
+.footer-small{color:var(--muted);font-size:.78rem;line-height:1.55;margin:7px 0}
+.footer-links{display:flex;flex-wrap:wrap;gap:7px 14px}
+.footer-links a{font-weight:700}
+.footer-bottom{background:var(--navy);color:#fff;border-top:0;padding:13px 0}
+.footer-bottom-inner{display:flex;justify-content:space-between;gap:18px;align-items:center;font-size:.72rem}
+.footer-bottom-inner span{color:#fff}
+.social-static{font-weight:900;letter-spacing:.08em}
+.partner-logo-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.partner-logo-card{min-height:150px;border:1px solid var(--line);border-radius:10px;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:10px;box-shadow:0 4px 14px rgba(18,59,93,.045)}
+.partner-logo-card img{width:100%;height:88px;object-fit:contain;display:block}
+.partner-logo-card span{margin-top:7px;color:var(--navy);font-size:.69rem;font-weight:800;text-align:center;line-height:1.25}
+@media(max-width:950px){.footer-main{grid-template-columns:1fr 1fr}.footer-brand{grid-column:1/-1}.partner-logo-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:650px){.brandlogo img{width:min(320px,82vw)}.quickbar{background:var(--navy)}.footer-main{grid-template-columns:1fr;padding:25px 0 20px}.footer-brand{grid-column:auto}.footer-brand img{width:min(320px,92vw)}.footer-links{display:grid;grid-template-columns:1fr 1fr;gap:6px 12px}.footer-bottom-inner{display:block}.footer-bottom-inner span{display:block;margin:3px 0}.partner-logo-grid{grid-template-columns:1fr 1fr}.partner-logo-card{min-height:145px}.partner-logo-card img{height:76px}}
+
+.edition-stage img{aspect-ratio:16/9;object-fit:cover;object-position:center}
+@media(max-width:650px){.brandinner{min-height:74px;padding:7px 0}.brandlogo img{width:min(250px,72vw);height:auto}.brandrow{overflow:hidden}}
