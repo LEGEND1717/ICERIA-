@@ -1,0 +1,24 @@
+ICERIA WEBSITE — DEPLOYMENT-READY MASTER
+Date: 2 October 2026
+
+This package is based directly on:
+ICERIA-2027-WEBSITE-MASTER-CORRECTION-FINAL-02-OCT-2026.zip
+
+No page structure, content, approved imagery, or existing public HTML URL paths were replaced.
+
+Deployment-readiness additions:
+- Absolute canonical URL added to all 16 public HTML pages.
+- Absolute og:url added/standardized on all 16 public HTML pages.
+- sitemap.xml generated for all 16 public HTML pages.
+- robots.txt updated with the live sitemap URL.
+
+Production base URL:
+https://legend1717.github.io/ICERIA-/
+
+Important:
+- ICERIA remains the permanent website/platform identity.
+- ICERIA 2027 is the current edition/event.
+- Upload the extracted package contents to the ROOT of the existing GitHub repository.
+- Do not create a new repository.
+- Do not rename or remove existing public HTML paths.
+- After deployment, verify the live pages and Google Search Console.

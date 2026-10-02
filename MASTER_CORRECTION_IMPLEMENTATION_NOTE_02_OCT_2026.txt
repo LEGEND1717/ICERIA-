@@ -1,0 +1,33 @@
+ICERIA 2027 WEBSITE — MASTER CORRECTION IMPLEMENTATION
+Date: 2 October 2026
+
+This package implements the locked ICERIA Website Master Correction Register.
+
+Implemented globally:
+- compact ICERIA header/current-edition treatment
+- Date / Venue / Theme hierarchy on relevant 2027 pages
+- responsive institutional mobile navigation treatment
+- redesigned site-wide footer with Secretariat contact and dynamic copyright year
+- preservation of existing structure, approved content and historical material
+
+Implemented page/section corrections:
+- Home: stronger ICERIA 2027 current-edition presentation
+- About: prominent Research-to-Impact pathway visual
+- ICERIA 2027: stronger stage hero, event-information blocks and emblem placement
+- Previous Editions: removed current-edition/documentary promotional graphics from the historical archive
+- Programme: prominent 2027 stage visual and event-information hierarchy
+- Expo: stronger exhibition hero, real exhibition imagery and structured participation categories
+- Partners: retained historical ecosystem structure and clarified historical-vs-current partnership status
+- Speakers: added additional documented contributors while retaining the existing record
+- News & Media: strengthened media presentation
+- Gallery: removed current-edition identity material from the historical/edition gallery structure
+- Contact: redesigned Secretariat/enquiry experience and institutional identity statement
+
+QA:
+- 16 HTML pages checked
+- local HTML asset references checked
+- all HTML pages contain the ICERIA Secretariat email and dynamic copyright-year mechanism
+- Previous Editions no longer contains the removed 2027 documentary/current-edition promotional sections
+
+No fabricated partner logos were created.
+This is a synchronized correction package rather than a page-by-page patch set.
