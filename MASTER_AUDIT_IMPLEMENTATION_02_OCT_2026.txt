@@ -1,0 +1,45 @@
+ICERIA WEBSITE — MASTER AUDIT IMPLEMENTATION
+02 OCTOBER 2026
+
+This package incorporates the consolidated corrections agreed during the final page-by-page audit.
+
+SITE-WIDE
+- Clean ICERIA master logo used across the site: ICERIA + globe-on-the-I + Innovations for Sustainable Food Systems. The long formal name is separate website text.
+- Unwanted pale/sea-green styling removed from site backgrounds/components; approved green, white, navy/blue and gold system retained.
+- Contact details use professional icons. +234 802 718 1717 is Phone + WhatsApp; +234 813 522 9228 is Phone only.
+- Footer is compact, white/navy professional treatment with clean logo, icons, navigation, Legend & Genius attribution and dynamic copyright year.
+- Current-edition information is retained in the blue strip with ICERIA 2027, 16 March 2027 and NIIA/Victoria Island, Lagos.
+- Full event title is used prominently in event-information headings.
+
+HOMEPAGE
+- Full formal ICERIA name placed above the hero image.
+- Existing approved farmer/drone hero preserved.
+- Current-edition information and layout strengthened.
+
+ABOUT
+- Research → Innovation → Partnership → Impact graphic promoted to a full-width, bold hero banner.
+
+PROGRAMME
+- Duplicate identical stage image removed.
+- Remaining stage image enlarged and displayed without cropping.
+- Bold heading added above it: INTERNATIONAL CONFERENCE AND EXPO ON RESEARCH AND INNOVATIONS IN AGRICULTURE 2027 PROGRAMME.
+
+PREVIOUS EDITIONS
+- Restored the three supplied historical visuals: 2019 conference poster, 2019 Dr. Kanayo Nwanze poster, and 2020 Virtual Era / media-coverage / 2019–2020–2027 journey visual.
+- Historical visuals presented prominently without forced cropping.
+
+PARTNERS
+- Existing verified partner-logo safeguards retained. No unverified or recreated logos are introduced.
+
+NEWS & MEDIA
+- Media cards use verified/source logos where available, with a clean text fallback where a verified logo asset is not available.
+- Added Premium Times ICERIA coverage and direct original-story link.
+- Updated Vanguard 2020 coverage to the direct article supplied by the user.
+
+TECHNICAL CLEAN-UP
+- Removed repeated <!DOCTYPE html> declarations from the package pages.
+- Checked all 16 HTML pages for one head/body/html/footer structure; no structural-count errors remain.
+- Local asset/link check found only four intentional fragment links to insights.html anchors.
+
+IMPORTANT
+This is a prepared, corrected GitHub Pages package. The available environment does not have a GitHub write/push connector, so the package must be uploaded to the ICERIA- repository to become live.

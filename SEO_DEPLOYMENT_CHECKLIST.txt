@@ -10,3 +10,8 @@ ICERIA WEBSITE — SEO DEPLOYMENT CHECKLIST
 8. Add LinkedIn/Instagram/YouTube URLs as sameAs only when they are official ICERIA accounts.
 9. Validate Organization and Event structured data after deployment.
 10. Do not claim historical organisations as current 2027 partners unless confirmed.
+
+FINAL PASS — 02 OCT 2026
+- Canonical URL and og:url normalized across all HTML pages.
+- Approved ICERIA master logo used for header/footer/metadata.
+- Previous Editions uses the two approved prominent historical visuals supplied by the owner.
